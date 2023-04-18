@@ -32,6 +32,6 @@ Question 6: The processing functions in the example aren't very likely to be use
     #   What kind of processing functions would be more likely to be used in a real-world application?
     #   When would you want to offload these functions to a server?
     Answer: Real-world applicaitons of processing functions would most likely be used in gaming, machine learning and even webservers.
-    We would want to offload functions when there is heavy traffic coming through so that performance can be improved.
+    We would want to offload functions when there is heavy traffic coming through so that performance can be improved. source: chatgpt
 
 
