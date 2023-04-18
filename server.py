@@ -11,3 +11,9 @@ def index():
 
 # TODO: Create a flask app with two routes, one for each function.
 # The route should get the data from the request, call the function, and return the result.
+
+def processOne
+
+
+def processTwo
+
