@@ -37,13 +37,11 @@ def process1(data: List[int]) -> List[int]:
 def process2(data: List[int]) -> List[int]:
     """TODO: Document this function. What does it do? What are the inputs and outputs?
    
-    Summary: Finds the next largest prime number from list by checking if the value, 
-    represented by 'x' is a square root   
+    Summary: Finds perfect squares... 
     
     Args: Data is a list of integer values
     
-    Returns: List of prime values 
-    
+    Returns: List of perfect values 
     """
     def foo(x):
         """Find the next largest prime number."""
@@ -56,11 +54,11 @@ def process2(data: List[int]) -> List[int]:
 def final_process(data1: List[int], data2: List[int]) -> List[int]:
 
     """TODO: Document this function. What does it do? What are the inputs and outputs?
-    Summary:
+    Summary: runs the final process that find the mean time of each mode 
     
-    Args:
+    Args: lists of data 1 and 2
     
-    Returns: the mean values 
+    Returns: the mean time values of executiosn  
     
     """
     return np.mean([x - y for x, y in zip(data1, data2)])
@@ -123,7 +121,6 @@ def run(offload: Optional[str] = None) -> float:
         data1 = message1.json()
         data2 = message2.json()
         
-
     ans = final_process(data1, data2)
     return ans 
 
