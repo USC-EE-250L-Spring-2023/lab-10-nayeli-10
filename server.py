@@ -1,3 +1,6 @@
+# Lab 10: distributed computing 
+# team member 1: nayeli de leon
+# team member 2: michelle arredondo
 from flask import Flask, request, jsonify
 
 from main import process1, process2
