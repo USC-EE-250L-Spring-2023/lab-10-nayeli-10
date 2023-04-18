@@ -20,6 +20,15 @@ Question 3: Are the processing functions executing in parallel or just concurren
 	Answer: Since the Rpi is running our main.py and our PC is running our server,
 	the processing functions are executing in parallel. 2 different CPUs are being used
 	source: article from above 
-	
+
+Question 4: What is the best offloading mode? Why do you think that is?
+	Process 2 seems to be the best offloading mode since it has a shorter time, hence it's faster. It 
+	can run two 
+
+Question 5: What is the worst offloading mode? Why do you think that is?
+
+Question 6: The processing functions in the example aren't very likely to be used in a real-world application. 
+    #   What kind of processing functions would be more likely to be used in a real-world application?
+    #   When would you want to offload these functions to a server?
 
 
