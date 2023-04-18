@@ -26,9 +26,12 @@ Question 4: What is the best offloading mode? Why do you think that is?
 	can run two 
 
 Question 5: What is the worst offloading mode? Why do you think that is?
+	The worst offloading mode seems to be both since it has the highest time 
 
 Question 6: The processing functions in the example aren't very likely to be used in a real-world application. 
     #   What kind of processing functions would be more likely to be used in a real-world application?
     #   When would you want to offload these functions to a server?
+    Answer: Real-world applicaitons of processing functions would most likely be used in gaming, machine learning and even webservers.
+    We would want to offload functions when there is heavy traffic coming through so that performance can be improved.
 
 
